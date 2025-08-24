@@ -1,14 +1,22 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
-# Part Two: Building Your First Focus Room
+# Part Two: CRDT Implementation
 
-Practical methods and implementation strategies for creating effective Focus Rooms.
+This section covers practical implementation of various CRDT types with code examples and best practices.
 
-## In This Section
+## Chapters
 
-- [Chapter 4: Launching Your Focus Room](./chapter4)
-- [Chapter 5: The Engine of the Focus Room](./chapter5)
-- [Chapter 6: Overcoming Obstacles](./chapter6)
-- [Chapter 7: Measuring the Effectiveness of the Focus Room](./chapter7) 
+- [Chapter 4: State-Based CRDTs](./chapter4)
+- [Chapter 5: Operation-Based CRDTs](./chapter5)
+- [Chapter 6: Advanced CRDT Patterns](./chapter6)
+- [Chapter 7: Performance Optimization](./chapter7)
+
+## What You'll Learn
+
+- Implementing state-based CRDTs (CvRDTs)
+- Building operation-based CRDTs (CmRDTs)
+- Advanced patterns and optimizations
+- Performance considerations and trade-offs
+- Testing and debugging CRDT implementations 

@@ -1,13 +1,20 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# Part One: Understanding the Value of Chaos and Focus
+# Part One: CRDT Fundamentals
 
-This section explores the fundamental concepts and vision behind the Focus Room methodology.
+This section covers the fundamental concepts and theory behind Conflict-Free Replicated Data Types.
 
-## In This Section
+## Chapters
 
-- [Chapter 1: The Cost of Distraction](./chapter1)
-- [Chapter 2: The Power of Focus](./chapter2)
-- [Chapter 3: Focus Room Core Principles](./chapter3) 
+- [Chapter 1: Introduction to Distributed Systems](./chapter1)
+- [Chapter 2: Consistency Models](./chapter2)
+- [Chapter 3: CRDT Basics](./chapter3)
+
+## What You'll Learn
+
+- Understanding distributed systems challenges
+- Different consistency models and trade-offs
+- Core CRDT principles and properties
+- Mathematical foundations of CRDTs 

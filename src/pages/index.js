@@ -14,16 +14,16 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          <Translate id="homepage.focusRoom">Focus Room</Translate>
+          <Translate id="homepage.crdt">CRDT</Translate>
         </Heading>
         <p className="hero__subtitle">
-          <Translate id="homepage.tagline">The Agile Focus Method to Unleash Team Potential</Translate>
+          <Translate id="homepage.tagline">Conflict-Free Replicated Data Type - Technical Documentation</Translate>
         </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs">
-            <Translate id="homepage.startReading">➡️ Start Reading The Book </Translate>
+            <Translate id="homepage.startReading">📚 View Documentation</Translate>
           </Link>
         </div>
       
@@ -48,8 +48,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title="Focus Room - The Agile Focus Method to Unleash Team Potential"
-      description="Description will go into a meta tag in <head />">
+      title="CRDT - Conflict-Free Replicated Data Type - Technical Documentation"
+      description="Comprehensive technical documentation for Conflict-Free Replicated Data Type (CRDT), covering theory, implementation, and practical applications in distributed systems.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
@@ -62,7 +62,7 @@ export default function Home() {
           <Link
             className="button button--secondary button--lg"
             to="/docs">
-            <Translate id="homepage.startReading">➡️ Start Reading The Book </Translate>
+            <Translate id="homepage.startReading">📚 View Documentation</Translate>
           </Link>
         </div>
         <br/>

@@ -10,20 +10,20 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Focus Room',
-  tagline: 'Multi-user timer board for collective focus',
+  title: 'CRDT',
+  tagline: 'Conflict-Free Replicated Data Type - Technical Documentation',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://book.focus-room.com',
+  url: 'https://crdt.drawmotive.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'focus-room', // Usually your GitHub org/user name.
-  projectName: 'focus-room-book', // Usually your repo name.
+  organizationName: 'drawmotive', // Usually your GitHub org/user name.
+  projectName: 'crdt', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -57,13 +57,13 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/focus-room/book/tree/main/',
+            'https://github.com/drawmotive/crdt/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
         },
         gtag: {
-          trackingID: 'G-P7B16BC568',
+          trackingID: 'G-0725SR0LPJ',
           anonymizeIP: false,
         },
       }),
@@ -74,26 +74,26 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/focus-room-social-card.jpg',
+      image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Focus Room',
+        title: 'CRDT',
         logo: {
-          alt: 'Focus Room Logo',
+          alt: 'CRDT Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'bookSidebar',
+            sidebarId: 'docsSidebar',
             position: 'left',
-            label: 'Read The Book',
+            label: 'Documentation',
           },
           {
             type: 'localeDropdown',
             position: 'right',
           },
           {
-            href: 'https://github.com/focus-room/book',
+            href: 'https://github.com/drawmotive/crdt',
             label: 'GitHub',
             position: 'right',
           },
@@ -110,7 +110,7 @@ const config = {
         links: [
           
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Focus Room Book. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} CRDT Documentation. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

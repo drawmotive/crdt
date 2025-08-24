@@ -5,34 +5,34 @@ import Translate from '@docusaurus/Translate';
 
 const FeatureList = [
   {
-    title: <Translate id="features.conquerDistraction.title">Conquer Workplace Distraction</Translate>,
-    image: '/img/undraw_focus_room_distraction_free.png',
+    title: <Translate id="features.theory.title">CRDT Theory & Fundamentals</Translate>,
+    image: '/img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        <Translate id="features.conquerDistraction.description">
-          Escape the constant pings and context switching. Learn how the Focus Room method creates a protected, high-momentum environment to tackle complex tasks and deliver results faster.
+        <Translate id="features.theory.description">
+          Understand the core concepts of Conflict-Free Replicated Data Types. Learn about eventual consistency, convergence properties, and the mathematical foundations that make CRDTs work in distributed systems.
         </Translate>
       </>
     ),
   },
   {
-    title: <Translate id="features.collectivePower.title">Harness Collective Focus Power</Translate>,
-    image: '/img/undraw_focus_room_team_flow.png',
+    title: <Translate id="features.implementation.title">Implementation Patterns</Translate>,
+    image: '/img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        <Translate id="features.collectivePower.description">
-          Discover how structured 'Focus Blocks' and the subtle power of 'Social Facilitation' (working alongside others, even virtually) combine to boost team motivation, rhythm, and shared accomplishment.
+        <Translate id="features.implementation.description">
+          Explore practical implementation patterns for various CRDT types including counters, sets, maps, and text. Get hands-on with code examples and best practices for building robust distributed applications.
         </Translate>
       </>
     ),
   },
   {
-    title: <Translate id="features.highOutput.title">Build Your High-Output Engine</Translate>,
-    image: '/img/undraw_focus_room_blueprint.png',
+    title: <Translate id="features.applications.title">Real-World Applications</Translate>,
+    image: '/img/undraw_docusaurus_react.svg',
     description: (
       <>
-        <Translate id="features.highOutput.description">
-          Get a practical, step-by-step blueprint using Agile principles. Implement your own Focus Room (physical or virtual), measure its impact, and cultivate a lasting culture of deep work and continuous improvement.
+        <Translate id="features.applications.description">
+          Discover how CRDTs are used in production systems for collaborative editing, distributed databases, and real-time synchronization. Learn from case studies and architectural patterns.
         </Translate>
       </>
     ),

@@ -1,15 +1,24 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
-# Part Three: Expanding and Deepening
+# Part Three: CRDT Applications
 
-Integrating the Focus Room into organizational DNA for lasting impact and culture change.
+This section covers real-world applications of CRDTs, advanced patterns, and production considerations.
 
-## In This Section
+## Chapters
 
-- [Chapter 8: Applicable Scenarios and Variations](./chapter8)
-- [Chapter 9: "Focus Room Online" Tool In-Depth Guide](./chapter9)
-- [Chapter 10: Overcoming Implementation Resistance](./chapter10)
-- [Chapter 11: Case Studies](./chapter11)
-- [Chapter 12: Conclusion](./chapter12) 
+- [Chapter 8: Collaborative Editing](./chapter8)
+- [Chapter 9: Distributed Databases](./chapter9)
+- [Chapter 10: Real-Time Systems](./chapter10)
+- [Chapter 11: Performance and Scalability](./chapter11)
+- [Chapter 12: Production Deployment](./chapter12)
+
+## What You'll Learn
+
+- Building collaborative editing applications
+- Integrating CRDTs with distributed databases
+- Real-time synchronization patterns
+- Performance optimization techniques
+- Production deployment strategies
+- Monitoring and debugging in production 

@@ -2,38 +2,54 @@
 sidebar_position: 2
 ---
 
-# Chapter 2: The Power of Focus
+# Chapter 2: Consistency Models
 
-Understanding individual and team focus mechanisms and how to harness them for maximum productivity.
+## Overview
 
-## Flow State: The Peak of Individual Efficiency
+Consistency models define the rules for how data is shared and synchronized across distributed systems. Understanding these models is crucial for choosing the right approach for your application.
 
-Exploring the psychological state of flow and how it enhances performance and satisfaction.
+## Strong Consistency
 
-## Productive Work Rhythms: Segmenting Tasks, Protecting Focus
+Strong consistency ensures that all nodes see the same data at the same time. This model provides the most intuitive behavior but comes with performance and availability trade-offs.
 
-Techniques for organizing work to protect focused time, including foundations of the Pomodoro Technique.
+### Characteristics
+- **Linearizability**: Operations appear to execute atomically
+- **Sequential Consistency**: Operations appear to execute in some sequential order
+- **Causal Consistency**: Causally related operations maintain their order
 
-## Unveiling the "Social Facilitation Effect"
+### Trade-offs
+- **Pros**: Simple to reason about, predictable behavior
+- **Cons**: Higher latency, reduced availability during partitions
 
-### Theoretical Introduction: What is the Social Facilitation Effect?
+## Eventual Consistency
 
-How the presence of others enhances simple tasks but may inhibit complex tasks.
+Eventual consistency allows replicas to temporarily diverge but guarantees they will eventually converge to the same state.
 
-### How the Focus Room Cleverly Leverages It
+### Characteristics
+- **Convergence**: All replicas eventually reach the same state
+- **Availability**: Operations can proceed even during network partitions
+- **Performance**: Lower latency and higher throughput
 
-#### Creating a Positive "Sense of Presence"
+### Trade-offs
+- **Pros**: High availability, better performance
+- **Cons**: Temporary inconsistencies, more complex application logic
 
-How virtual rooms simulate a real co-working atmosphere to inspire motivation.
+## CRDTs and Consistency
 
-#### Shared "Sense of Ritual"
+CRDTs provide a structured way to achieve eventual consistency by ensuring that:
 
-Using synchronized starts of "Focus Blocks" and daily stand-ups to enhance belonging and collective motivation.
+1. **Concurrent operations commute**: Operations can be applied in any order
+2. **Operations are idempotent**: Applying the same operation multiple times has no effect
+3. **State converges**: All replicas eventually reach the same final state
 
-#### Avoiding Negative Impacts
+## Choosing the Right Model
 
-Ensuring individuals are not directly disturbed during complex thinking tasks through clear "Focus Blocks" and "Room Rules".
+The choice between consistency models depends on your application requirements:
 
-## Team Focus: The Possibility of Collective Flow
+- **Strong Consistency**: When data accuracy is critical and some latency is acceptable
+- **Eventual Consistency**: When availability and performance are more important than immediate consistency
+- **CRDTs**: When you need eventual consistency with automatic conflict resolution
 
-Exploring how teams can achieve synchronization and collective states of high productivity. 
+## Next Steps
+
+In the next chapter, we'll dive into the fundamentals of CRDTs and how they work. 
