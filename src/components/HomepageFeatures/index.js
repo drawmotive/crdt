@@ -5,34 +5,34 @@ import Translate from '@docusaurus/Translate';
 
 const FeatureList = [
   {
-    title: <Translate id="features.theory.title">CRDT Theory & Fundamentals</Translate>,
+    title: <Translate id="features.theory.title">Drawing CRDT Fundamentals</Translate>,
     image: '/img/undraw_docusaurus_mountain.svg',
     description: (
       <>
         <Translate id="features.theory.description">
-          Understand the core concepts of Conflict-Free Replicated Data Types. Learn about eventual consistency, convergence properties, and the mathematical foundations that make CRDTs work in distributed systems.
+          Master the core concepts of CRDTs specifically for drawing applications. Learn about vector graphics synchronization, geometric conflict resolution, and the mathematical foundations that enable seamless collaborative drawing experiences.
         </Translate>
       </>
     ),
   },
   {
-    title: <Translate id="features.implementation.title">Implementation Patterns</Translate>,
+    title: <Translate id="features.implementation.title">Drawing Tool Implementation</Translate>,
     image: '/img/undraw_docusaurus_tree.svg',
     description: (
       <>
         <Translate id="features.implementation.description">
-          Explore practical implementation patterns for various CRDT types including counters, sets, maps, and text. Get hands-on with code examples and best practices for building robust distributed applications.
+          Build collaborative drawing tools with practical CRDT patterns for shapes, paths, layers, and real-time synchronization. Get hands-on with code examples for vector graphics, canvas operations, and multi-user drawing sessions.
         </Translate>
       </>
     ),
   },
   {
-    title: <Translate id="features.applications.title">Real-World Applications</Translate>,
+    title: <Translate id="features.applications.title">Real-Time Drawing Applications</Translate>,
     image: '/img/undraw_docusaurus_react.svg',
     description: (
       <>
         <Translate id="features.applications.description">
-          Discover how CRDTs are used in production systems for collaborative editing, distributed databases, and real-time synchronization. Learn from case studies and architectural patterns.
+          Discover how CRDTs power production drawing tools, collaborative design platforms, and real-time diagram editors. Learn from case studies of successful drawing applications and architectural patterns for scalable collaboration.
         </Translate>
       </>
     ),

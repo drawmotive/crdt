@@ -14,10 +14,10 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          <Translate id="homepage.crdt">CRDT</Translate>
+          <Translate id="homepage.crdt">CRDT for Drawing</Translate>
         </Heading>
         <p className="hero__subtitle">
-          <Translate id="homepage.tagline">Conflict-Free Replicated Data Type - Technical Documentation</Translate>
+          <Translate id="homepage.tagline">Conflict-Free Replicated Data Types for Collaborative Drawing Tools</Translate>
         </p>
         <div className={styles.buttons}>
           <Link
@@ -48,8 +48,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title="CRDT - Conflict-Free Replicated Data Type - Technical Documentation"
-      description="Comprehensive technical documentation for Conflict-Free Replicated Data Type (CRDT), covering theory, implementation, and practical applications in distributed systems.">
+      title="CRDT for Drawing - Conflict-Free Replicated Data Types for Collaborative Drawing Tools"
+      description="Comprehensive technical documentation for implementing CRDTs in collaborative drawing tools, diagram editors, and real-time design applications. Learn how to build conflict-free drawing experiences.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

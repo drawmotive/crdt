@@ -1,30 +1,30 @@
 {
-  "homepage.focusRoom": {
-    "message": "Focus Room"
+  "homepage.crdt": {
+    "message": "CRDT für Zeichnen"
   },
   "homepage.tagline": {
-    "message": "Die Agile-Fokus-Methode zur Entfesselung des Teampotenzials"
+    "message": "Konfliktfreie Replizierte Datentypen für Kollaborative Zeichenwerkzeuge"
   },
   "homepage.startReading": {
-    "message": "➡️ Buch jetzt lesen"
+    "message": "📚 Dokumentation anzeigen"
   },
-  "features.conquerDistraction.title": {
-    "message": "Arbeitsplatz-Ablenkungen besiegen"
+  "features.theory.title": {
+    "message": "Zeichen-CRDT Grundlagen"
   },
-  "features.conquerDistraction.description": {
-    "message": "Entkommen Sie den ständigen Benachrichtigungen und dem Kontextwechsel. Erfahren Sie, wie die Focus Room-Methode eine geschützte, hochdynamische Umgebung schafft, um komplexe Aufgaben schneller zu bewältigen."
+  "features.theory.description": {
+    "message": "Meistern Sie die Kernkonzepte von CRDTs speziell für Zeichenanwendungen. Lernen Sie über Vektorgrafik-Synchronisation, geometrische Konfliktlösung und die mathematischen Grundlagen, die nahtlose kollaborative Zeichenerfahrungen ermöglichen."
   },
-  "features.collectivePower.title": {
-    "message": "Kollektive Fokus-Power nutzen"
+  "features.implementation.title": {
+    "message": "Implementierung von Zeichenwerkzeugen"
   },
-  "features.collectivePower.description": {
-    "message": "Entdecken Sie, wie strukturierte 'Fokus-Blöcke' und die subtile Kraft der 'sozialen Erleichterung' (gemeinsames Arbeiten, auch virtuell) die Team-Motivation, den Rhythmus und das gemeinsame Erfolgserlebnis steigern."
+  "features.implementation.description": {
+    "message": "Bauen Sie kollaborative Zeichenwerkzeuge mit praktischen CRDT-Mustern für Formen, Pfade, Ebenen und Echtzeit-Synchronisation. Erhalten Sie praktische Erfahrung mit Code-Beispielen für Vektorgrafiken, Canvas-Operationen und Multi-User-Zeichensitzungen."
   },
-  "features.highOutput.title": {
-    "message": "Ihre Hochleistungsmaschine bauen"
+  "features.applications.title": {
+    "message": "Echtzeit-Zeichenanwendungen"
   },
-  "features.highOutput.description": {
-    "message": "Erhalten Sie eine praktische, schrittweise Anleitung mit agilen Prinzipien. Implementieren Sie Ihren eigenen Focus Room (physisch oder virtuell), messen Sie dessen Wirkung und fördern Sie eine nachhaltige Kultur der konzentrierten Arbeit und kontinuierlichen Verbesserung."
+  "features.applications.description": {
+    "message": "Entdecken Sie, wie CRDTs Produktions-Zeichenwerkzeuge, kollaborative Design-Plattformen und Echtzeit-Diagrammeditoren antreiben. Lernen Sie aus Fallstudien erfolgreicher Zeichenanwendungen und architektonischen Mustern für skalierbare Zusammenarbeit."
   },
   "theme.ErrorPageContent.title": {
     "message": "Die Seite ist abgestürzt.",

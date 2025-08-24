@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'CRDT',
-  tagline: 'Conflict-Free Replicated Data Type - Technical Documentation',
+  title: 'CRDT for Drawing',
+  tagline: 'Conflict-Free Replicated Data Types for Collaborative Drawing Tools',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -76,9 +76,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'CRDT',
+        title: 'CRDT for Drawing',
         logo: {
-          alt: 'CRDT Logo',
+          alt: 'CRDT for Drawing Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -110,7 +110,7 @@ const config = {
         links: [
           
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} CRDT Documentation. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} CRDT for Drawing Documentation. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

@@ -1,31 +1,30 @@
 {
-  "homepage.focusRoom": {
-    "message": "Focus Room",
-    "description": "포커스 룸"
+  "homepage.crdt": {
+    "message": "그리기용 CRDT"
   },
   "homepage.tagline": {
-    "message": "팀 잠재력을 발휘하기 위한 애자일 포커스 방법론"
+    "message": "협업 그리기 도구를 위한 충돌 없는 복제 데이터 타입"
   },
   "homepage.startReading": {
-    "message": "➡️ 책 읽기 시작하기"
+    "message": "📚 문서 보기"
   },
-  "features.conquerDistraction.title": {
-    "message": "직장 내 주의산만 정복하기"
+  "features.theory.title": {
+    "message": "그리기 CRDT 기초"
   },
-  "features.conquerDistraction.description": {
-    "message": "끊임없는 알림과 컨텍스트 전환에서 벗어나세요. Focus Room 방법론이 어떻게 복잡한 작업을 수행하고 더 빠른 결과를 제공하기 위한 보호된 고속 환경을 만드는지 알아보세요."
+  "features.theory.description": {
+    "message": "그리기 애플리케이션에 특화된 CRDT의 핵심 개념을 마스터하세요. 벡터 그래픽 동기화, 기하학적 충돌 해결, 그리고 원활한 협업 그리기 경험을 가능하게 하는 수학적 기초에 대해 배우세요."
   },
-  "features.collectivePower.title": {
-    "message": "집단적 집중력 활용하기"
+  "features.implementation.title": {
+    "message": "그리기 도구 구현"
   },
-  "features.collectivePower.description": {
-    "message": "구조화된 '포커스 블록'과 '사회적 촉진'(가상으로라도 다른 사람들과 함께 일하는 것)의 미묘한 힘이 어떻게 팀 동기부여, 리듬 및 공동 성취를 향상시키는지 알아보세요."
+  "features.implementation.description": {
+    "message": "도형, 경로, 레이어, 실시간 동기화를 위한 실용적인 CRDT 패턴으로 협업 그리기 도구를 구축하세요. 벡터 그래픽, 캔버스 작업, 다중 사용자 그리기 세션의 코드 예제로 실습 경험을 쌓으세요."
   },
-  "features.highOutput.title": {
-    "message": "고성과 엔진 구축하기"
+  "features.applications.title": {
+    "message": "실시간 그리기 애플리케이션"
   },
-  "features.highOutput.description": {
-    "message": "애자일 원칙을 사용한 실용적이고 단계별 청사진을 얻으세요. 자신만의 Focus Room(물리적 또는 가상)을 구현하고, 그 영향을 측정하며, 깊은 작업과 지속적인 개선의 문화를 육성하세요."
+  "features.applications.description": {
+    "message": "CRDT가 프로덕션 그리기 도구, 협업 디자인 플랫폼, 실시간 다이어그램 편집기를 어떻게 구동하는지 발견하세요. 성공한 그리기 애플리케이션의 사례 연구와 확장 가능한 협업을 위한 아키텍처 패턴에서 배우세요."
   },
   "theme.ErrorPageContent.title": {
     "message": "페이지에 오류가 발생하였습니다.",

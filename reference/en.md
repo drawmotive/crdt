@@ -1,51 +1,68 @@
-# CRDT Reference
+# CRDT for Drawing Reference
 
-## Core Concepts
+## Core Concepts for Drawing Applications
 
-### CRDT Types
+### Drawing CRDT Types
 
-- **State-Based (CvRDT)**: Merge complete states
-- **Operation-Based (CmRDT)**: Exchange operations/commands
+- **State-Based (CvRDT)**: Merge complete drawing states
+- **Operation-Based (CmRDT)**: Exchange drawing operations/commands
 
-### Basic CRDTs
+### Drawing-Specific CRDTs
 
-- **G-Counter**: Grow-only counter
-- **PN-Counter**: Positive-negative counter
-- **G-Set**: Grow-only set
-- **2P-Set**: Two-phase set
-- **LWW-Register**: Last-write-wins register
+- **Shape CRDT**: Rectangles, circles, polygons with automatic conflict resolution
+- **Path CRDT**: Vector paths and curves with point-by-point synchronization
+- **Layer CRDT**: Hierarchical layer management with ordering consistency
+- **Style CRDT**: Color, stroke, fill properties with last-writer-wins semantics
+- **Composition CRDT**: Complex shapes built from primitive elements
 
-### Properties
+### Drawing Properties
 
-- **Commutativity**: Operations can be applied in any order
-- **Idempotency**: Operations can be applied multiple times
-- **Convergence**: All replicas eventually reach the same state
+- **Geometric Commutativity**: Drawing operations can be applied in any order
+- **Visual Idempotency**: Drawing operations can be applied multiple times without visual changes
+- **Spatial Convergence**: All drawing replicas eventually reach the same visual state
 
-## Implementation Patterns
+## Drawing Implementation Patterns
 
-### State Merging
+### Shape Merging
 
 ```javascript
-merge(other) {
-  for (const [key, value] of Object.entries(other.state)) {
-    this.state[key] = Math.max(this.state[key] || 0, value)
+mergeShapes(other) {
+  for (const [id, shape] of Object.entries(other.shapes)) {
+    if (!this.shapes[id] || this.shapes[id].version < shape.version) {
+      this.shapes[id] = shape
+    }
   }
 }
 ```
 
-### Operation Broadcasting
+### Drawing Operation Broadcasting
 
 ```javascript
-broadcast(operation) {
+broadcastDrawingOperation(operation) {
   this.operations.push(operation)
   this.network.send(operation)
+  this.applyLocally(operation)
 }
 ```
 
-## Best Practices
+### Layer Management
 
-1. **Choose the right CRDT type** for your use case
-2. **Handle network failures** gracefully
-3. **Optimize for your specific requirements** (latency vs. consistency)
-4. **Test thoroughly** with concurrent operations
-5. **Monitor performance** in production
+```javascript
+updateLayerOrder(layerId, newIndex) {
+  const layer = this.layers.find(l => l.id === layerId)
+  if (layer) {
+    layer.order = newIndex
+    this.broadcastLayerUpdate(layer)
+  }
+}
+```
+
+## Drawing-Specific Best Practices
+
+1. **Choose the right drawing CRDT type** for your visual elements (shapes, paths, layers)
+2. **Handle geometric conflicts** gracefully (overlapping shapes, intersecting paths)
+3. **Optimize for real-time collaboration** (latency vs. visual consistency)
+4. **Test thoroughly** with concurrent drawing operations
+5. **Monitor visual performance** in production drawing tools
+6. **Implement efficient rendering** for complex drawing states
+7. **Handle large numbers of drawing objects** without performance degradation

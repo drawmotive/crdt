@@ -3,48 +3,50 @@ sidebar_position: 1
 slug: /
 ---
 
-# CRDT: Conflict-Free Replicated Data Types
+# CRDT for Drawing: Conflict-Free Replicated Data Types
 
 ## Introduction
 
-Conflict-Free Replicated Data Types (CRDTs) are data structures that can be replicated across multiple nodes in a distributed system and updated independently without coordination, while ensuring eventual consistency and conflict resolution.
+Conflict-Free Replicated Data Types (CRDTs) for drawing applications are specialized data structures that enable real-time collaborative drawing, diagram editing, and design collaboration. These CRDTs can be replicated across multiple nodes in a distributed system and updated independently without coordination, while ensuring eventual consistency and automatic conflict resolution for geometric operations.
 
-## What are CRDTs?
+## What are Drawing CRDTs?
 
-CRDTs are designed to handle the challenges of distributed systems where:
-- Multiple replicas can be updated concurrently
-- Network partitions can occur
-- Immediate consistency is not required
-- Eventual consistency is acceptable
+Drawing CRDTs are designed to handle the unique challenges of collaborative drawing systems where:
+- Multiple users can draw and edit shapes simultaneously
+- Vector graphics operations need to be synchronized in real-time
+- Geometric conflicts (overlapping shapes, intersecting paths) must be resolved automatically
+- Layer composition and ordering must remain consistent across all replicas
+- Immediate consistency is not required, but eventual consistency is essential
 
-## Key Properties
+## Key Properties for Drawing Applications
 
-- **Eventual Consistency**: All replicas will eventually converge to the same state
-- **Conflict Resolution**: Conflicts are resolved automatically without manual intervention
-- **Availability**: Operations can proceed even during network partitions
-- **Scalability**: Performance doesn't degrade with the number of replicas
+- **Eventual Consistency**: All drawing replicas will eventually converge to the same visual state
+- **Geometric Conflict Resolution**: Shape overlaps, path intersections, and layer conflicts are resolved automatically
+- **Real-Time Collaboration**: Multiple users can draw simultaneously without blocking each other
+- **Vector Graphics Support**: Native support for shapes, paths, layers, and complex drawing operations
+- **Scalability**: Performance doesn't degrade with the number of collaborative users
 
-## Common CRDT Types
+## Common Drawing CRDT Types
 
-- **Counters**: Monotonic counters that only increase
-- **Sets**: Add-wins or remove-wins sets
-- **Maps**: Nested key-value structures
-- **Text**: Collaborative text editing with operational transformation
-- **Registers**: Last-writer-wins values
+- **Shape CRDTs**: Rectangles, circles, polygons with automatic conflict resolution
+- **Path CRDTs**: Vector paths and curves with point-by-point synchronization
+- **Layer CRDTs**: Hierarchical layer management with ordering consistency
+- **Style CRDTs**: Color, stroke, fill properties with last-writer-wins semantics
+- **Composition CRDTs**: Complex shapes built from primitive elements
 
-## Use Cases
+## Use Cases in Drawing Tools
 
-- Collaborative editing applications
-- Distributed databases
-- Real-time synchronization
-- Offline-first applications
-- Multi-player games
-- IoT device coordination
+- **Collaborative Design Platforms**: Real-time design collaboration for teams
+- **Diagram Editors**: Multi-user diagram creation and editing
+- **Whiteboard Applications**: Interactive brainstorming and planning sessions
+- **CAD Tools**: Collaborative engineering and architectural design
+- **Digital Art Platforms**: Multi-artist collaborative artwork creation
+- **Prototyping Tools**: Team-based UI/UX design and prototyping
 
 ## Getting Started
 
 This documentation will guide you through:
-1. Understanding CRDT theory and fundamentals
-2. Implementing various CRDT types
-3. Building distributed applications
-4. Best practices and performance considerations
+1. Understanding CRDT theory specifically for drawing applications
+2. Implementing drawing-specific CRDT types for shapes, paths, and layers
+3. Building collaborative drawing tools and real-time design applications
+4. Best practices for performance, scalability, and user experience in drawing collaboration

@@ -1,31 +1,30 @@
 {
-  "homepage.focusRoom": {
-    "message": "Focus Room",
-    "description": "フォーカスルーム"
+  "homepage.crdt": {
+    "message": "描画用CRDT"
   },
   "homepage.tagline": {
-    "message": "アジャイル・フォーカスメソッドでチームの可能性を解き放つ"
+    "message": "協調描画ツールのための競合解決型複製データ型"
   },
   "homepage.startReading": {
-    "message": "➡️ 本を読み始める"
+    "message": "📚 ドキュメントを見る"
   },
-  "features.conquerDistraction.title": {
-    "message": "職場の気を散らすものを克服"
+  "features.theory.title": {
+    "message": "描画CRDTの基礎"
   },
-  "features.conquerDistraction.description": {
-    "message": "絶え間ない通知やコンテキストの切り替えから解放されましょう。Focus Roomメソッドが、複雑なタスクに集中し、より早く成果を出すための保護された高モメンタム環境をどのように作るかを学びます。"
+  "features.theory.description": {
+    "message": "描画アプリケーション専用のCRDTの核心概念を習得しましょう。ベクターグラフィックの同期、幾何学的競合解決、シームレスな協調描画体験を可能にする数学的基盤について学びます。"
   },
-  "features.collectivePower.title": {
-    "message": "集団の集中力を活用"
+  "features.implementation.title": {
+    "message": "描画ツールの実装"
   },
-  "features.collectivePower.description": {
-    "message": "構造化された「フォーカスブロック」と「社会的促進」（たとえバーチャルでも他者と一緒に働くこと）の微妙な力が、チームのモチベーション、リズム、達成感をどのように高めるかを発見しましょう。"
+  "features.implementation.description": {
+    "message": "形状、パス、レイヤー、リアルタイム同期のための実用的なCRDTパターンを使用して協調描画ツールを構築します。ベクターグラフィック、キャンバス操作、マルチユーザー描画セッションのコード例で実践的な経験を積みましょう。"
   },
-  "features.highOutput.title": {
-    "message": "高出力エンジンを構築"
+  "features.applications.title": {
+    "message": "リアルタイム描画アプリケーション"
   },
-  "features.highOutput.description": {
-    "message": "アジャイル原則を活用した実践的なステップバイステップの設計図を手に入れましょう。自分自身のFocus Room（物理・バーチャル問わず）を実装し、その効果を測定し、深い仕事と継続的改善の文化を育てましょう。"
+  "features.applications.description": {
+    "message": "CRDTが本格的な描画ツール、協調デザインプラットフォーム、リアルタイム図表エディターをどのように駆動するかを発見しましょう。成功した描画アプリケーションのケーススタディとスケーラブルな協調のためのアーキテクチャパターンから学びます。"
   },
   "theme.ErrorPageContent.title": {
     "message": "エラーが発生しました",

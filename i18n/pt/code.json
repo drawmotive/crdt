@@ -1,31 +1,30 @@
 {
-  "homepage.focusRoom": {
-    "message": "Focus Room",
-    "description": "Sala de Foco"
+  "homepage.crdt": {
+    "message": "CRDT para Desenho"
   },
   "homepage.tagline": {
-    "message": "O Método Ágil de Foco para Liberar o Potencial da Equipe"
+    "message": "Tipos de Dados Replicados Sem Conflito para Ferramentas de Desenho Colaborativo"
   },
   "homepage.startReading": {
-    "message": "➡️ Comece a Ler o Livro"
+    "message": "📚 Ver Documentação"
   },
-  "features.conquerDistraction.title": {
-    "message": "Conquiste a Distração no Ambiente de Trabalho"
+  "features.theory.title": {
+    "message": "Fundamentos CRDT para Desenho"
   },
-  "features.conquerDistraction.description": {
-    "message": "Escape dos constantes alertas e mudanças de contexto. Aprenda como o método Focus Room cria um ambiente protegido e de alto impulso para enfrentar tarefas complexas e entregar resultados mais rapidamente."
+  "features.theory.description": {
+    "message": "Domine os conceitos fundamentais dos CRDTs especificamente para aplicações de desenho. Aprenda sobre sincronização de gráficos vetoriais, resolução de conflitos geométricos e os fundamentos matemáticos que permitem experiências de desenho colaborativo perfeitas."
   },
-  "features.collectivePower.title": {
-    "message": "Aproveite o Poder Coletivo do Foco"
+  "features.implementation.title": {
+    "message": "Implementação de Ferramentas de Desenho"
   },
-  "features.collectivePower.description": {
-    "message": "Descubra como os 'Blocos de Foco' estruturados e o poder sutil da 'Facilitação Social' (trabalhar ao lado de outros, mesmo virtualmente) se combinam para impulsionar a motivação, o ritmo e a realização compartilhada da equipe."
+  "features.implementation.description": {
+    "message": "Construa ferramentas de desenho colaborativo com padrões CRDT práticos para formas, caminhos, camadas e sincronização em tempo real. Obtenha experiência prática com exemplos de código para gráficos vetoriais, operações de canvas e sessões de desenho multiusuário."
   },
-  "features.highOutput.title": {
-    "message": "Construa Seu Motor de Alta Produtividade"
+  "features.applications.title": {
+    "message": "Aplicações de Desenho em Tempo Real"
   },
-  "features.highOutput.description": {
-    "message": "Obtenha um esquema prático e passo a passo usando princípios Ágeis. Implemente sua própria Focus Room (física ou virtual), meça seu impacto e cultive uma cultura duradoura de trabalho profundo e melhoria contínua."
+  "features.applications.description": {
+    "message": "Descubra como os CRDTs impulsionam ferramentas de desenho de produção, plataformas de design colaborativo e editores de diagramas em tempo real. Aprenda com estudos de caso de aplicações de desenho bem-sucedidas e padrões arquitetônicos para colaboração escalável."
   },
   "theme.ErrorPageContent.title": {
     "message": "Esta página deu erro.",
