@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Nächste",
+    "description": "The label for version current"
+  },
+  "sidebar.bookSidebar.category.Part One: Understanding the Value of Chaos and Focus": {
+    "message": "Teil Eins: Den Wert von Chaos und Fokus verstehen",
+    "description": "The label for category Part One: Understanding the Value of Chaos and Focus in sidebar bookSidebar"
+  },
+  "sidebar.bookSidebar.category.Part Two: Building Your First Focus Room": {
+    "message": "Teil Zwei: Ihren ersten Focus Room aufbauen",
+    "description": "The label for category Part Two: Building Your First Focus Room in sidebar bookSidebar"
+  },
+  "sidebar.bookSidebar.category.Part Three: Expanding and Deepening": {
+    "message": "Teil Drei: Ausweiten und Vertiefen",
+    "description": "The label for category Part Three: Expanding and Deepening in sidebar bookSidebar"
+  }
+}

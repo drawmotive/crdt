@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "次期バージョン",
+    "description": "The label for version current"
+  },
+  "sidebar.bookSidebar.category.Part One: Understanding the Value of Chaos and Focus": {
+    "message": "第1部：カオスと集中の価値を理解する",
+    "description": "The label for category Part One: Understanding the Value of Chaos and Focus in sidebar bookSidebar"
+  },
+  "sidebar.bookSidebar.category.Part Two: Building Your First Focus Room": {
+    "message": "第2部：最初のFocus Roomを作る",
+    "description": "The label for category Part Two: Building Your First Focus Room in sidebar bookSidebar"
+  },
+  "sidebar.bookSidebar.category.Part Three: Expanding and Deepening": {
+    "message": "第3部：拡大と深化",
+    "description": "The label for category Part Three: Expanding and Deepening in sidebar bookSidebar"
+  }
+}

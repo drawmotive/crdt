@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "최신",
+    "description": "The label for version current"
+  },
+  "sidebar.bookSidebar.category.Part One: Understanding the Value of Chaos and Focus": {
+    "message": "파트 1: 혼돈과 집중의 가치 이해하기",
+    "description": "The label for category Part One: Understanding the Value of Chaos and Focus in sidebar bookSidebar"
+  },
+  "sidebar.bookSidebar.category.Part Two: Building Your First Focus Room": {
+    "message": "파트 2: 첫 번째 Focus Room 구축하기",
+    "description": "The label for category Part Two: Building Your First Focus Room in sidebar bookSidebar"
+  },
+  "sidebar.bookSidebar.category.Part Three: Expanding and Deepening": {
+    "message": "파트 3: 확장과 심화",
+    "description": "The label for category Part Three: Expanding and Deepening in sidebar bookSidebar"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "docs.version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "docs.sidebar.partOne.category": {
+    "message": "Part One: Understanding the Value of Chaos and Focus",
+    "description": "The label for category Part One: Understanding the Value of Chaos and Focus in sidebar bookSidebar"
+  },
+  "docs.sidebar.partTwo.category": {
+    "message": "Part Two: Building Your First Focus Room",
+    "description": "The label for category Part Two: Building Your First Focus Room in sidebar bookSidebar"
+  },
+  "docs.sidebar.partThree.category": {
+    "message": "Part Three: Expanding and Deepening",
+    "description": "The label for category Part Three: Expanding and Deepening in sidebar bookSidebar"
+  }
+}

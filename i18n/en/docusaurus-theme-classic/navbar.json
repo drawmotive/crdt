@@ -1,0 +1,18 @@
+{
+  "navbar.title": {
+    "message": "Focus Room",
+    "description": "The title in the navbar"
+  },
+  "navbar.logo.alt": {
+    "message": "Focus Room Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "navbar.item.readTheBook": {
+    "message": "Read The Book",
+    "description": "Navbar item with label Read The Book"
+  },
+  "navbar.item.github": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
